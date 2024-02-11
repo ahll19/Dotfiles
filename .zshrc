@@ -118,3 +118,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias voresminder="ssh -p 22 anders@voresminder.dk"
+alias raspberry="ssh anders@192.168.87.134"
+alias desktop="ssh -p 42069 anders@voresminder.dk"
