@@ -9,6 +9,7 @@ sudo pacman -S curl --noconfirm
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "Installing oh-my-zsh dependencies"
+curl -#fLo- 'https://raw.githubusercontent.com/hyperupcall/autoenv/master/scripts/install.sh' | sh
 sudo pacman -S xclip github-cli thefuck tmux acpi --noconfirm
 
 echo "Installing and running stow"

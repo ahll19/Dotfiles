@@ -1,6 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -121,3 +126,5 @@ source $ZSH/oh-my-zsh.sh
 alias voresminder="ssh -p 22 anders@voresminder.dk"
 alias raspberry="ssh anders@192.168.87.134"
 alias desktop="ssh -p 42069 anders@voresminder.dk"
+
+source ~/.autoenv/activate.sh
