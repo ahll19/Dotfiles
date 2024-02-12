@@ -125,5 +125,6 @@ source $ZSH/oh-my-zsh.sh
 alias voresminder="ssh -p 22 anders@voresminder.dk"
 alias raspberry="ssh anders@192.168.87.134"
 alias desktop="ssh -p 42069 anders@voresminder.dk"
+alias nvim="kitty nvim"
 
 source ~/.autoenv/activate.sh
