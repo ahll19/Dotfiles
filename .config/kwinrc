@@ -6,9 +6,25 @@ Id_1=46930e7a-1553-403a-8f07-1a25927cb529
 Id_2=991cea4e-ee60-4205-8bf1-56b3c742d9fd
 Id_3=00d7686d-6170-45fb-ae9d-771fabdb1e04
 Id_4=63eb2443-063f-4ef4-a9c2-ca4dcd70327f
-Id_5=7c0c3d63-bd9d-44c8-b045-7c6920cbeba4
-Number=5
+Name_1=Programming
+Name_2=Djøf
+Name_3=D&D
+Name_4=Mess for Later
+Number=4
 Rows=1
+
+[Effect-colorblindnesscorrection]
+Mode=1
+
+[Effect-windowview]
+BorderActivateAll=9
+
+[ModifierOnlyShortcuts]
+Meta=org.kde.krunner,/App,,toggleDisplay
+
+[MouseBindings]
+CommandAll1=Activate, raise and move
+CommandAllWheel=Change Opacity
 
 [Plugins]
 kwin4_effect_fadedesktopEnabled=true
@@ -17,12 +33,22 @@ magiclampEnabled=true
 slideEnabled=false
 
 [TabBox]
+LayoutName=compact
 OrderMinimizedMode=1
 
 [Tiling]
 padding=4
 
+[Tiling][3bceea83-cab0-51ce-b728-80d0c59e9dd3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3be0f976-ed00-5842-b7d0-4865cb82d987]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][5ebc27b9-709f-5dc7-9c1e-deeb8556822b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6ffc9819-b5ee-5c93-9bb7-4e62e3c4d161]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][c43426ad-4586-5c46-bf17-f7a5c25fce0e]
@@ -32,4 +58,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+DelayFocusInterval=100
 RollOverDesktops=true
+SnapOnlyWhenOverlapping=true
+
+[Xwayland]
+Scale=1

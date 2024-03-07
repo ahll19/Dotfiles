@@ -2,9 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -124,7 +123,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias voresminder="ssh -p 22 anders@voresminder.dk"
+alias raspberry-wifi="ssh anders@192.168.87.135"
 alias raspberry="ssh anders@192.168.87.134"
-alias desktop="ssh -p 42069 anders@voresminder.dk"
+alias nvim="kitty nvim"
+alias aau-server="ssh -l 'ahll19@student.aau.dk' ai-fe02.srv.aau.dk"
 
 source ~/.autoenv/activate.sh
