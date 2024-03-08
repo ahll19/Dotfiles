@@ -127,4 +127,8 @@ alias raspberry="ssh anders@192.168.87.134"
 alias desktop="ssh -p 42069 anders@voresminder.dk"
 alias nvim="kitty nvim"
 
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
 source ~/.autoenv/activate.sh
